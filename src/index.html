@@ -2,6 +2,11 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
+  <script>
+    if (global === undefined) {
+      var global = window;
+    }
+  </script>
   <title>Angular6CognitoHostedUI</title>
   <base href="/">
 
@@ -12,3 +17,4 @@
   <app-root></app-root>
 </body>
 </html>
+
